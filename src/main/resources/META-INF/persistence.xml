@@ -26,7 +26,6 @@
             <!-- db schema 를 자동 생성 -->
             <property name="hibernate.hbm2ddl.auto" value="create"/>
 
-
         </properties>
     </persistence-unit>
 </persistence>
