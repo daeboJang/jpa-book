@@ -1,5 +1,6 @@
 package me.devjang;
 
+import me.devjang.smartd.entity.Board;
 import me.devjang.smartd.entity.Group;
 
 import javax.persistence.EntityManager;
@@ -21,6 +22,13 @@ public class Main {
             group.setId(1);
             group.setName("1st group");
             em.persist(group);
+
+            // 이건 주석입니다.
+            Board board = new Board();
+            board.setGroup(group);
+            board.setBoardId(2);
+            board.setName("좋은 장소");
+            em.persist(board);
 
             tx.commit();
 
