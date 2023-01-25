@@ -5,6 +5,11 @@
         <!-- entity 검색 못하는 경우 직접 추가 -->
         <class>me.devjang.smartd.entity.Group</class>
         <class>me.devjang.smartd.entity.Board</class>
+        <class>me.devjang.smartd.entity.RawData</class>
+
+        <class>me.devjang.jpashop.Member</class>
+        <class>me.devjang.jpashop.Order</class>
+        <class>me.devjang.jpashop.Delivery</class>
 
         <properties>
             <!-- 필수 속성 -->
